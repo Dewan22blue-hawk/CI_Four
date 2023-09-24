@@ -1,0 +1,29 @@
+CRITICAL - 2023-09-23 06:22:56 --> Too few arguments to function App\Controllers\Latihan::penjumlahan(), 0 passed in C:\xampp\htdocs\shiapp\SHiApp\system\CodeIgniter.php on line 915 and exactly 2 expected
+in APPPATH\Controllers\Latihan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Latihan->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\shiapp\\SHiApp\\public\\index.php')
+CRITICAL - 2023-09-23 06:23:32 --> Undefined property: App\Controllers\Latihan::$load
+in APPPATH\Controllers\Latihan.php on line 14.
+ 1 APPPATH\Controllers\Latihan.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Latihan::$load', 'C:\\xampp\\htdocs\\shiapp\\SHiApp\\app\\Controllers\\Latihan.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Latihan->penjumlahan('2', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\shiapp\\SHiApp\\public\\index.php')
+CRITICAL - 2023-09-23 07:25:32 --> Too few arguments to function App\Controllers\Latihan::penjumlahan(), 0 passed in C:\xampp\htdocs\shiapp\SHiApp\system\CodeIgniter.php on line 915 and exactly 2 expected
+in APPPATH\Controllers\Latihan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Latihan->penjumlahan()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\shiapp\\SHiApp\\public\\index.php')
+CRITICAL - 2023-09-23 07:25:38 --> Too few arguments to function App\Controllers\Latihan::penjumlahan(), 1 passed in C:\xampp\htdocs\shiapp\SHiApp\system\CodeIgniter.php on line 915 and exactly 2 expected
+in APPPATH\Controllers\Latihan.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Latihan->penjumlahan('index')
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\shiapp\\SHiApp\\public\\index.php')
