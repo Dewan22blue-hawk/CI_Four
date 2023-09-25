@@ -45,6 +45,7 @@ $routes->get('/latihan', 'Latihan::page');
 $routes->get('/about', 'Latihan::about');
 $routes->get('/contact', 'Latihan::contact');
 $routes->get('/faqs', 'Latihan::faqs');
+$routes->get('/news', 'News::index');
 /**
  * --------------------------------------------------------------------
  * Additional Routing
